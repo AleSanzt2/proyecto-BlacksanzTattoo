@@ -259,4 +259,17 @@
         margin-bottom: 18rem;
         margin-top: 3rem;
     }
+    .cotizacion {
+        background-color: black;
+        height: 5rem;
+        h1 {
+            font-family: 'Sancreek', cursive;
+            color: white;
+            font-size: 4rem;
+            overflow-y: hidden;
+            text-transform: uppercase;
+            padding-left: 35rem;
+            padding-top: 1rem;
+        }
+    }
 }

@@ -256,9 +256,6 @@
         width: 55rem;
         margin-left: 4.8rem;
     }
-    .mancha__contacto {
-        margin-top: 8.8rem;
-    }
     .mapa__tablet {
         width: 55rem;
         margin-left: 4rem;
@@ -270,5 +267,19 @@
     }
     .mapa__celu {
         display: none;
+    }
+    .cotizacion {
+        background-color: black;
+        margin-top: 8.8rem;
+        height: 5rem;
+        h1 {
+            font-family: 'Sancreek', cursive;
+            color: white;
+            font-size: 2.5rem;
+            overflow-y: hidden;
+            text-transform: uppercase;
+            padding-left: 24.9rem;
+            padding-top: 1rem;
+        }
     }
 }

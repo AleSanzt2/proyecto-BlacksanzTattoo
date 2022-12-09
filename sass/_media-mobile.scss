@@ -222,9 +222,6 @@
         width: 22rem;
         margin-left: 1.6rem;
     }
-    .mancha__contacto {
-        margin-top: 6.8rem;
-    }
     .mapa__tablet {
         display: none;
     }
@@ -236,5 +233,19 @@
         margin-left: 1.5rem;
         margin-bottom: 5rem;
         margin-top: 3rem;
+    }
+    .cotizacion {
+        background-color: black;
+        margin-top: 6.8rem;
+        height: 5rem;
+        h1 {
+            font-family: 'Sancreek', cursive;
+            color: white;
+            font-size: 2.5rem;
+            overflow-y: hidden;
+            text-transform: uppercase;
+            padding-left: 5rem;
+            padding-top: 1rem;
+        }
     }
 }

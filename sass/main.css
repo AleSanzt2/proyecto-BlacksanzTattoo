@@ -243,9 +243,6 @@ main .galeria {
     width: 22rem;
     margin-left: 1.6rem;
   }
-  .mancha__contacto {
-    margin-top: 6.8rem;
-  }
   .mapa__tablet {
     display: none;
   }
@@ -257,6 +254,20 @@ main .galeria {
     margin-left: 1.5rem;
     margin-bottom: 5rem;
     margin-top: 3rem;
+  }
+  .cotizacion {
+    background-color: black;
+    margin-top: 6.8rem;
+    height: 5rem;
+  }
+  .cotizacion h1 {
+    font-family: "Sancreek", cursive;
+    color: white;
+    font-size: 2.5rem;
+    overflow-y: hidden;
+    text-transform: uppercase;
+    padding-left: 5rem;
+    padding-top: 1rem;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -521,6 +532,19 @@ main .galeria {
     margin-left: 20rem;
     margin-bottom: 18rem;
     margin-top: 3rem;
+  }
+  .cotizacion {
+    background-color: black;
+    height: 5rem;
+  }
+  .cotizacion h1 {
+    font-family: "Sancreek", cursive;
+    color: white;
+    font-size: 4rem;
+    overflow-y: hidden;
+    text-transform: uppercase;
+    padding-left: 35rem;
+    padding-top: 1rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -788,9 +812,6 @@ main .galeria {
     width: 55rem;
     margin-left: 4.8rem;
   }
-  .mancha__contacto {
-    margin-top: 8.8rem;
-  }
   .mapa__tablet {
     width: 55rem;
     margin-left: 4rem;
@@ -802,5 +823,19 @@ main .galeria {
   }
   .mapa__celu {
     display: none;
+  }
+  .cotizacion {
+    background-color: black;
+    margin-top: 8.8rem;
+    height: 5rem;
+  }
+  .cotizacion h1 {
+    font-family: "Sancreek", cursive;
+    color: white;
+    font-size: 2.5rem;
+    overflow-y: hidden;
+    text-transform: uppercase;
+    padding-left: 24.9rem;
+    padding-top: 1rem;
   }
 }/*# sourceMappingURL=main.css.map */
