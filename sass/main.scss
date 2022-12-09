@@ -1,0 +1,22 @@
+//reset
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1520px;
+}
+
+main {
+    .galeria {
+        display: grid;
+        width: 96%;
+        margin-top: 5rem;
+        margin-left: 1.7rem;
+        margin-bottom: 3rem;
+    }
+}
+
+//parcials
+@import 'media-mobile';
+@import 'media-desk';
+@import 'media-tablet';

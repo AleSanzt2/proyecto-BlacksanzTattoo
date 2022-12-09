@@ -1,0 +1,262 @@
+@media screen and (min-width: 1025px) {
+    .menuHamburguesa {
+        display: none;
+    }
+    .banner__pequeño {
+        display: none;
+    }
+    .menu {
+        img {
+            width: 5rem;
+            margin-left: 3rem;
+        }
+    }
+    .banner {
+        width: auto;
+        .parallax {
+            background-image: url(../assets/img/fondo-tatuando.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 54rem;
+            overflow-y: hidden;
+            img {
+                width: 95.5rem;
+                margin-top: -14rem;
+            }
+        }
+    }
+    #boton__cotiza {
+        width: 12rem;
+        margin-left: 41.7rem;
+        margin-top: 5rem;
+    }
+    .cita {
+        overflow-x: hidden;
+        width: 68rem;
+        margin-top: 7rem;
+        margin-left: 19.5rem;
+        .cita__h6 {
+            margin-left: 42rem;
+            margin-top: 2rem;
+            font-family: 'Poiret One', cursive;
+            color: black;
+            font-size: 2rem;
+        }
+        .cita__h1 {
+            font-family: 'Sancreek', cursive;
+            color: black;
+            overflow-y: hidden;
+            font-size: 5rem;
+        }
+    }
+            .cita__cierre {
+            width: 95.5rem;
+        }
+    .carrusel {
+        overflow-x: hidden;
+        background-color: #A6A6A6;
+        width: auto;
+        height: 75rem;
+        margin-top: -19rem;
+        .carrusel__modi {
+            padding-top: 20rem;
+            margin-left: 12rem;
+            width: 70rem;
+        }
+    }
+    footer {
+        .footer { 
+            overflow-x: hidden;
+            background-color: black;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: flex-start;
+            height: 18rem;
+            padding-top: 8rem;
+            margin-top: 0rem;
+            position: absolute;
+            overflow-y: hidden;
+            p {
+                color: white;
+                padding-left: 15rem;
+                font-family: 'Poiret One', cursive;
+                font-size: 2rem;
+                padding-bottom: 5rem;
+            }
+        }
+        img {
+            margin-top: -16.8rem;
+            position: absolute;
+        }
+    }
+    .tarjeta-biografia {
+        display: none;
+    }
+    .titular-sobremi {
+        background-color: black;
+        height: 7rem;
+        h1 {
+            font-family: 'Sancreek', cursive;
+            color: white;
+            font-size: 4.3rem;
+            overflow-y: hidden;
+            text-transform: uppercase;
+            padding-left: 26rem;
+            padding-top: 1rem;
+        }
+    }
+    #boton__galeria {
+        width: 12rem;
+        height: 4rem;
+        margin-top: 5rem;
+        margin-left: 34rem;
+        margin-bottom: 17rem;
+    }
+    #biografia {
+        display: none;
+    }
+    #biografiaDesk {
+        margin-left: 6.5rem;
+        margin-top: 3rem;
+        p {
+            font-size: 1.7rem;
+        }
+    }
+    .cuidados {
+        display: none;
+    }
+    .cuidadosCelu {
+        display: none;
+    }
+    .precaucionesCelu {
+        display: none;
+    }
+    .cuidados-compu {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        margin-bottom: 16rem;
+        margin-left: 11.3rem;
+        .cuidadosTablet {
+            padding-top: 2rem;
+        }
+        .precaucionesTablet {
+            padding-top: 2rem;
+        }
+    }
+    .cuidado__tattoo {
+        background-color: black;
+        height: 7rem;
+        h1 {
+            font-family: 'Sancreek', cursive;
+            color: white;
+            font-size: 3rem;
+            overflow-y: hidden;
+            text-transform: uppercase;
+            padding-left: 18.5rem;
+            padding-top: 1rem;
+        }
+    }
+    .mancha__textoSobremi {
+        display: none;
+    }
+    .galeria {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0.2em;
+        .img-uno {
+            grid-column: 1/2;
+            grid-row: 1/3;
+            height: 100%;
+            object-fit: cover;
+            width: 35rem;
+        }
+        .img-dos {
+            grid-column: 2/5;
+            grid-row: 2/3;
+            width: 56rem;
+            height: 100%;
+            object-fit: cover;
+        }
+        .img-tres {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            height: 100%;
+            object-fit: cover;
+        }
+        .img-cuatro {
+            grid-column: 3/5;
+            grid-row: 1/2;
+            width: 21rem;
+            height: 100%;
+            object-fit: cover;
+        }
+        .img-cinco {
+            grid-column: 1/3;
+            grid-row: 3/4;
+            width: 35rem;
+            height: 100%;
+            object-fit: cover;
+        }
+        .img-seis {
+            grid-column: 2/3;
+            grid-row: 3/4;
+            width: 35rem;
+            height: 100%;
+            object-fit: cover;
+        }
+        .img-siete {
+            grid-column: 3/5;
+            grid-row: 3/4;
+            width: 20.8rem;
+            height: 100%;
+            object-fit: cover;
+        }
+        .img-ocho {
+            display: none;
+        }
+        .img-uno,
+        .img-dos,
+        .img-tres,
+        .img-cuatro,
+        .img-cinco,
+        .img-seis,
+        .img-siete {
+            border-radius: 0.5rem;
+        }
+        
+    }
+    .boton__galeria {
+        width: 15rem;
+        margin-left: 37.5rem;
+        margin-bottom: 18rem;
+        margin-top: 5rem;
+    }
+    .formulario__tablet {
+        display: none;
+    }
+    .formulario__celu {
+        display: none;
+    }
+    .mapa__celu {
+        display: none;
+    }
+    .mapa__tablet {
+        display: none;
+    }
+    .formulario__desk {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+        width: 70rem;
+        margin-left: 13rem;
+    }
+    .mapa__desk {
+        width: 55rem;
+        margin-left: 20rem;
+        margin-bottom: 18rem;
+        margin-top: 3rem;
+    }
+}
